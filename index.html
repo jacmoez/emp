@@ -1,12 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EMP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>EMP Website</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quia distinctio assumenda magni modi, perspiciatis atque, quibusdam quam accusantium dolore et exercitationem pariatur deserunt in officia voluptates maxime excepturi a!</p>
+
+<body class="bg-light">
+
+    <!-- Nav start -->
+    <nav class="navbar navbar-expand-lg py-3 shadow" style="background-color: #007777;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">EMP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">MY COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Nav end -->
+    <!-- Content start -->
+        <!-- Quote Start -->
+        <div class="row p-5 align-items-center bg-secondry border-bottom border-secondary text-center" style="height: 300px;background-color: #caa3a3;">
+            <pre class="col " style="font-size: 30px;padding: auto;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+                “          The more that you read, 
+                        the more things you will know, 
+                    the more that you learn, 
+                        the more places you’ll go.         ”</pre>
+            <div class="col">
+                <button class="py-2 w-50 rounded text-white border-black" style="background-color: #003333;border: 1px solid;">View Courses</button>
+            </div>
+        </div>
+        <!-- Quote End -->
+        <!-- popular course start -->
+        <div class="p-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <form class="row">
+                        <div class="col-md-8"><input class="form-control" type="text" /></div>
+                        <div class="col-md-4"><button class="btn btn-secondary w-100">Search</button></div>
+                    </form>
+                    <div class="mt-5 row px-2">
+                        <div class="border p-3 rounded  col-md-4 bg-white">
+                            <div>
+                                <img src="sci3.jpg" class="w-100"/>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Science</li>
+                                <li class="list-group-item">Rb.T Riya</li>
+                                <li class="list-group-item">
+                                    <a  href="#" class="text-secondary">View Science Courses</a>
+                                </li>
+                              </ul>
+                        </div>
+
+                        <div class="border p-3 rounded  col-md-4 bg-white">
+                            <div>
+                                <img src="computer.jpg" class="w-100"/>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Science</li>
+                                <li class="list-group-item">Rb.T Riya</li>
+                                <li class="list-group-item">
+                                    <a  href="#" class="text-secondary">View Science Courses</a>
+                                </li>
+                              </ul>
+                        </div>
+
+
+                        <div class="border p-3 rounded  col-md-4 bg-white">
+                            <div>
+                                <img src="eng.jpg" class="w-100"/>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Science</li>
+                                <li class="list-group-item">Rb.T Riya</li>
+                                <li class="list-group-item">
+                                    <a  href="#" class="text-secondary">View Science Courses</a>
+                                </li>
+                              </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 text-center"> ------- <button class="btn btn-dark rounded-0">View More Courses</button> -------</div>
+                </div>
+                
+                <div class="col-md-4 border-start"> 
+                    <h3 class="mb-3 bg-dark p-3 text-white  text-center">Popular Courses</h3>
+                    <div>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small>3 days ago</small>
+                              </div>
+                              <p class="mb-1">Some placeholder content in a paragraph.</p>
+                              <small>And some small print.</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-body-secondary">3 days ago</small>
+                              </div>
+                              <p class="mb-1">Some placeholder content in a paragraph.</p>
+                              <small class="text-body-secondary">And some muted small print.</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">List group item heading</h5>
+                                <small class="text-body-secondary">3 days ago</small>
+                              </div>
+                              <p class="mb-1">Some placeholder content in a paragraph.</p>
+                              <small class="text-body-secondary">And some muted small print.</small>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- popular course end -->
+    <!-- Content end -->
+
+    <!-- footer start -->
+     <div style="background-color:#007777 !important;">
+        <div class="bg-dark  col-8 m-auto ">
+            <table class="table border-0 ">
+                <tbody class="text-center ">
+                  <tr >
+                    <th class="text-white"  style="background-color:#007777 !important;">Phone</th>
+                    <td class="text-white" style="background-color:#007777 !important;">:</td>
+                    <td class="text-white"  style="background-color:#007777 !important;">09779779779</td>
+                  </tr>
+                  <tr>
+                    <th class="text-white" style="background-color:#007777 !important;">Email</th>
+                    <td class="text-white" style="background-color:#007777 !important;">:</td>
+                    <td class="text-white"  style="background-color:#007777 !important;">emp@mm.com</td>
+                  </tr>
+                  <tr>
+                    <th class="text-white" style="background-color:#007777 !important;">3</th>
+                    <td class="text-white" style="background-color:#007777 !important;">:</td>
+                    <td  class="text-white" style="background-color:#007777 !important;">Larry the Bird</td>
+                  </tr>
+
+                  <tr>
+                    <th class="text-white"  style="background-color:#007777 !important;">Address</th>
+                    <td class="text-white" style="background-color:#007777 !important;">:</td>
+                    <td class="text-white" style="background-color:#007777 !important;">Yangon</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- <h3 style="background-color:#007777 !important;">Copyright@</h3> -->
+        </div>
+    </div>
+    <!-- fotter end -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
